@@ -14,11 +14,11 @@ Para o efeito da submissão da IES/DA os contribuintes passam a ter que usar **o
 
 O [Decreto-Lei Decreto-Lei n.º 48/2020 de 3 de agosto](https://data.dre.pt/eli/dec-lei/48/2020/08/03/p/dre) estabelece na alínea b\) do Artigo 3.º que a chave simétrica tem de ser mantida em sigilo **e não pode ser usada para a encriptação de outro ficheiro relativo o outro exercício ou outro contribuinte \(NIF\), como uma obrigação do fabricante de software**.
 
-A interpretação à letra da legislação pode dar a entender será necessário um mecanismo de custódia da chave simétrica pelo software. Não é isso que se pede. 
+A interpretação à letra da legislação pode dar a entender será necessário um mecanismo de custódia da chave simétrica pelo software. Não é isso que se pede.
 
-A responsabilidade da segurança da chave é em primeira instância do contribuinte para quem foi emitida. 
+A responsabilidade da segurança da chave é em primeira instância do contribuinte para quem foi emitida.
 
-Porém, não impede que os produtos de software possam partilhar essa responsabilidade através de um mecanismo de custódia que faça a gestão das chaves dos contribuintes. A centralização de processos relacionados com a chave simétrica através de mecanismos internos de custódia contribuem para o aumento da segurança e para o sucesso das operações. 
+Porém, não impede que os produtos de software possam partilhar essa responsabilidade através de um mecanismo de custódia que faça a gestão das chaves dos contribuintes. A centralização de processos relacionados com a chave simétrica através de mecanismos internos de custódia contribuem para o aumento da segurança e para o sucesso das operações.
 
 #### Sobre este aspeto é portanto necessário
 
@@ -26,4 +26,3 @@ Porém, não impede que os produtos de software possam partilhar essa responsabi
 * Garantir que é usada a chave correta para a encriptação do ficheiro do contribuinte.
 * Garantir que a chave não é usada para encriptar outro ficheiro do mesmo contribuinte relativo a outro exercício ou outro ficheiro de um contribuinte diferente.
 * Garantir que a chave não é usada para outro fim que não aquele que está estabelecido na legislação.
-

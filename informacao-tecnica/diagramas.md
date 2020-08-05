@@ -4,7 +4,7 @@ Em baixo apresentam-se um conjunto de diagramas que permitem perceber cada uma d
 
 ## Fase 1 - Pedido de geração de chave
 
-![](../.gitbook/assets/fase-1-pedido-de-geracao-de-chave.svg)
+![Fase 1 - Pedido de geração de chave](../.gitbook/assets/fase-1-pedido-de-geracao-de-chave.svg)
 
 ### Descrição
 
@@ -14,7 +14,7 @@ Este pedido carece de autenticação pelo Contribuinte. O Contribuinte será em 
 
 ## Fase 2 - Pedido de chave
 
-![](../.gitbook/assets/fase-2-pedido-de-chave.svg)
+![Fase 2 - Pedido de chave](../.gitbook/assets/fase-2-pedido-de-chave.svg)
 
 ### Descrição
 
@@ -22,7 +22,7 @@ A segunda fase do processo visa obter a chave simétrica para encriptação dos 
 
 ## Fase 3 - CryptoSAF-T e IES/DA
 
-![](../.gitbook/assets/fase-3-cryptosaf-t-e-ies-da.svg)
+![Fase 3 - CryptoSAF-T e IES/DA](../.gitbook/assets/fase-3-cryptosaf-t-e-ies-da.svg)
 
 ### Descrição
 
@@ -34,7 +34,7 @@ Após a obtenção do `checksum` do ficheiro `SAF-T (PT)` original e do `CryptoS
 
 ## Fase 4 - Acesso pela AT ao ficheiro original
 
-![](../.gitbook/assets/fase-4-acesso-pela-at-ao-ficheiro-original.svg)
+![Fase 4 - Acesso pela AT ao ficheiro original](../.gitbook/assets/fase-4-acesso-pela-at-ao-ficheiro-original.svg)
 
 ### Descrição
 

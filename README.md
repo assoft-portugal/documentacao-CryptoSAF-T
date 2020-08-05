@@ -40,5 +40,4 @@ Temos muito gosto em contar com a sua colaboração neste projeto. Faça Fork de
 
 ## Licença
 
-Este projeto está licenciado nos termos MIT License.
-
+Este projeto está licenciado nos termos [MIT License](LICENSE).
