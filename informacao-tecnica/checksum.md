@@ -24,7 +24,7 @@ SHA256(saft.xml)= 8272604da8443bc3dfca6a5071d19e9c29b49dcee552d87f203c4ed74ff2b6
 
 Windows PowerShell
 
-```powershell
+```text
 Get-FileHash .\saft.xml -Algorithm SHA256
 
 Algorithm       Hash                                                                   Path

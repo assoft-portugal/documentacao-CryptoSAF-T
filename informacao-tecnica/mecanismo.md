@@ -10,5 +10,5 @@ Realizar um parsing de um ficheiro XML de grande dimensão pode ser um problema 
 * [Best way to parse large XML file in R without reading entire file into memory?](https://stackoverflow.com/questions/45393106/best-way-to-parse-large-xml-file-in-r-without-reading-entire-file-into-memory)
 * [Parsing Large XML files, Serially, in Python](http://boscoh.com/programming/reading-xml-serially.html)
 
-A segunda abordagem, de exportar ambos os ficheiros a partir da aplicação \(SAF-T e CryptoSAF-T\) pode ser a solução para casos em que o resultado sejam ficheiros de grande dimensão. Se assim for é necessário ter em consideração o valor do elemento `DateCreated`, que terá que ser igual para ambos os ficheiros de modo a não comprometer o checksum.
+A segunda abordagem, de exportar ambos os ficheiros a partir do ERP \(SAF-T e CryptoSAF-T\) pode ser a mais adequada nos casos o resultado sejam ficheiros de grande dimensão. Porém, esta abordagem reforça a necessidade de garantir a integridade estrutural de ambos os ficheiros criados, de modo a não comprometer o checksum.
 

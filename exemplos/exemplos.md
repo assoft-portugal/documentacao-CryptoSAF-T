@@ -4,7 +4,7 @@
 
 Crédito de [@ctigeek](https://gist.github.com/ctigeek/2a56648b923d198a6e60)
 
-```powershell
+```text
 function Create-AesManagedObject($key, $IV) {
     $aesManaged = New-Object "System.Security.Cryptography.AesManaged"
     $aesManaged.Mode = [System.Security.Cryptography.CipherMode]::CBC

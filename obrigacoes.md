@@ -26,3 +26,4 @@ Porém, não impede que os produtos de software possam partilhar essa responsabi
 * Garantir que é usada a chave correta para a encriptação do ficheiro do contribuinte.
 * Garantir que a chave não é usada para encriptar outro ficheiro do mesmo contribuinte relativo a outro exercício ou outro ficheiro de um contribuinte diferente.
 * Garantir que a chave não é usada para outro fim que não aquele que está estabelecido na legislação.
+
