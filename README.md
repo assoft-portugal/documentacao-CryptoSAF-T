@@ -40,5 +40,5 @@ Temos muito gosto em contar com a sua colaboração neste projeto. Faça Fork de
 
 ## Licença
 
-Este projeto está licenciado nos termos [MIT License](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/tree/a26c4d253005341963e7eaf28caefc02fbd870bf/LICENSE/README.md).
+Este projeto está licenciado nos termos [MIT License](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/blob/master/LICENSE).
 
