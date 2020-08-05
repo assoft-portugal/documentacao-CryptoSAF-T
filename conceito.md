@@ -1,6 +1,6 @@
 # Conceito
 
-O CryptoSAF-T, designação dada pela comunidade, consiste no ficheiro SAF-T \(PT\) expurgado de um conjunto de informação sensível sobre os contribuintes. São [**elementos**](informacao-tecnica/elementos.md) que, ao serem tratados sem quaisquer medidas de proteção, podem expor e colocar em causa a segurança e a privacidade dos contribuintes, bem como daqueles que têm relações comerciais com esses.
+O CryptoSAF-T, designação dada pela comunidade, consiste no ficheiro SAF-T \(PT\) com um conjunto de informação sensível sobre os contribuintes descaracterizada. São [**elementos**](informacao-tecnica/elementos.md) que, ao serem tratados sem quaisquer medidas de proteção, podem expor e colocar em causa a segurança e a privacidade dos contribuintes, bem como daqueles que têm relações comerciais com esses.
 
 ## Em que consiste
 
