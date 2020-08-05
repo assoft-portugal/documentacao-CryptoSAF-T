@@ -1,0 +1,9 @@
+sequenceDiagram
+%% Fase 4 - Acesso pela AT ao ficheiro original
+    AT->>INCM: Pedido de chave
+    par 
+        INCM->>+viaCTT: 
+    and
+        viaCTT->>-Contribuinte: 
+    end
+    Note right of viaCTT: Informação ao contribuinte de que a chave foi invocada pela AT

@@ -1,0 +1,10 @@
+
+sequenceDiagram
+%% Fase 1 do pedido de chave
+    ERP->>INCM: Pedido de geração de chave
+    par
+        INCM->>+viaCTT: 
+    and
+        viaCTT->>-Contribuinte: Envio da senha de autenticação  pela INCM através do serviço viaCTT
+    end
+  

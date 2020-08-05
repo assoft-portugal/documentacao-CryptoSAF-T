@@ -1,0 +1,8 @@
+sequenceDiagram
+%% Fase 2 do pedido de chave
+    par Fase 2
+        Contribuinte->>+ERP: 
+    and
+       ERP->>-INCM: Pedido de chave simétrica
+        Note right of ERP: Parâmetros ([NIF], [Ano], [Código de autenticação])
+    end
