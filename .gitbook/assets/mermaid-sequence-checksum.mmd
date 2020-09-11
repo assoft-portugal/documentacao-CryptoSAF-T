@@ -3,7 +3,7 @@ sequenceDiagram
 participant SAFT
 participant CryptoSAFT
 Note over SAFT: checksum(1)
-SAFT ->> CryptoSAFT: Symmetric Encryption - aes-256-gcm
-CryptoSAFT ->> SAFT: Symmetric Decryption - aes-256-gcm
+SAFT ->> CryptoSAFT: Symmetric Encryption - aes-128-ctr
+CryptoSAFT ->> SAFT: Symmetric Decryption - aes-128-ctr
 Note over SAFT: checksum(2) = checksum(1)
 					

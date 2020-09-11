@@ -1,6 +1,6 @@
 # Mecanismo
 
-A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra [aes-256-gcm](../exemplos/exemplos.md)[ ](https://en.wikipedia.org/wiki/Galois/Counter_Mode)\(por confirmar\) que retira partido do uso de uma **chave simétrica**. A par da encriptação existe também o desafio da obtenção do checksum do ficheiro SAF-T \(PT\) original.
+A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra [aes-128-ctr](../exemplos/exemplos.md) \(por confirmar\) que retira partido do uso de uma **chave simétrica**. A par da encriptação existe também o desafio da obtenção do checksum do ficheiro SAF-T \(PT\) original.
 
 O CryptoSAF-T pode ser criado a partir do SAF-T \(PT\) original ou, em alternativa, criado após ou em simultâneo com o ficheiro original. Ambas as abordagens são viáveis. Porém, é de considerar que a primeira abordagem pode implicar problemas ao nível do _handling_ de ficheiros XML com grande dimensão.
 
