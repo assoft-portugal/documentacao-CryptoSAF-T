@@ -30,7 +30,7 @@ A aplicação tem de criar **dois ficheiros**, o `SAF-T (PT)` original, em que s
 
 A chave simétrica é usada para encriptar os [**elementos**](elementos.md) \(clique para ver a lista de elementos abrangidos\), no que resultará o `CryptoSAF-T`. O regulamento \(por confirmar\) indica que deve ser usado o algoritmo `aes-128-ctr` para encriptar cada um dos elementos em causa.
 
-Após a obtenção do `checksum` do ficheiro `SAF-T (PT)` original e do `CryptoSAF-T` a aplicação está em condições de submeter a IES/DA. O envio da IES/DA é feito através do contabilista do Contribuinte no Portal das Finanças, ontem tem de carregar o `CryptoSAF-T` e o `checksum` do `SAF-T (PT)`.
+Após a obtenção do `checksum` do ficheiro `SAF-T (PT)` original e do `CryptoSAF-T` a aplicação está em condições de submeter a IES/DA. O envio da IES/DA é feito através do contabilista do Contribuinte no Portal das Finanças, onde tem de carregar o `CryptoSAF-T` e o `checksum` do `SAF-T (PT)`.
 
 ## Fase 4 - Acesso pela AT ao ficheiro original
 
