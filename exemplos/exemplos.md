@@ -4,7 +4,9 @@
 
 Crédito de [@ctigeek](https://gist.github.com/ctigeek/2a56648b923d198a6e60)
 
-```text
+{% code title="Encrypt-String.ps1" %}
+
+```powershell
 function Create-AesManagedObject($key, $IV) {
     $aesManaged = New-Object "System.Security.Cryptography.AesManaged"
     $aesManaged.Mode = [System.Security.Cryptography.CipherMode]::CBC
@@ -69,6 +71,7 @@ else {
     Write-Host "Porreiro, funcionou: $backToPlainText "
 }
 ```
+{% endcode %}
 
 ## Encriptação AES-CTR em JAVA
 

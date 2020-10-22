@@ -6,7 +6,7 @@ Para assegurar a verificação do [**checksum**](../saf-t-pt/checksum.md) após 
 
 ### Algumas ferramentas
 
-* .NET[ XmlDsigExcC14NTransform Class](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.xml.xmldsigexcc14ntransform?view=dotnet-plat-ext-3.1)
+* .NET [XmlDsigExcC14NTransform Class](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.xml.xmldsigexcc14ntransform?view=dotnet-plat-ext-3.1)
 * Windows / Linux / Unix: [libxml2](https://www.aleksey.com/xmlsec/c14n.html)\*\*\*\*
 * JAVA: [XOM](https://github.com/elharo/xom/), [Santuario Class Canonicalizer](http://santuario.apache.org/Java/api/org/apache/xml/security/c14n/Canonicalizer.html)
 
