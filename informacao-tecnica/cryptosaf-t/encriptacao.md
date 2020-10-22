@@ -7,12 +7,12 @@ Para assegurar a verificação do [**checksum**](../saf-t-pt/checksum.md) após 
 ### Algumas ferramentas
 
 * .NET [XmlDsigExcC14NTransform Class](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.xml.xmldsigexcc14ntransform?view=dotnet-plat-ext-3.1)
-* Windows / Linux / Unix: [libxml2](https://www.aleksey.com/xmlsec/c14n.html)\*\*\*\*
+* Windows / Linux / Unix: [libxml2](https://www.aleksey.com/xmlsec/c14n.html)
 * JAVA: [XOM](https://github.com/elharo/xom/), [Santuario Class Canonicalizer](http://santuario.apache.org/Java/api/org/apache/xml/security/c14n/Canonicalizer.html)
 
 ## Handling do XML
 
-Para garantir a integridade da informação contida no ficheiro, o **CryptoSAF-T tem de ser criado a partir do SAF-T \(PT\) original**. Está previsto a criação de um documento técnico com todas as regras que vão estar na base do processo de encriptação. 
+Para garantir a integridade da informação contida no ficheiro, o **CryptoSAF-T tem de ser criado a partir do SAF-T \(PT\) original**. Está previsto a criação de um documento técnico com todas as regras que vão estar na base do processo de encriptação.
 
 Processar um ficheiro XML de grande dimensão pode ser um problema quando este é carregado apenas para a memória:
 

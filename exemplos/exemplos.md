@@ -5,8 +5,7 @@
 Crédito de [@ctigeek](https://gist.github.com/ctigeek/2a56648b923d198a6e60)
 
 {% code title="Encrypt-String.ps1" %}
-
-```powershell
+```text
 function Create-AesManagedObject($key, $IV) {
     $aesManaged = New-Object "System.Security.Cryptography.AesManaged"
     $aesManaged.Mode = [System.Security.Cryptography.CipherMode]::CBC
@@ -104,11 +103,11 @@ public class SaftTestCipher {
     private static String FILE_NAME = "Exemplo_Facturacao.xml";
     private static String FILE_CIPHER_NAME = "Exemplo_Facturacao_Cipher.xml";
     private static String FILE_DECIPHER_NAME = "Exemplo_Facturacao_Decipher.xml";
-	
-	//"<Key>8/K97v8vQqbD/ShX5yx+3g==</Key>"
-    //"<IV>+KSjwLJcoMXl7W+U1y5VtQ==</IV>"		
-	private static String BASE64_KEY = "8/K97v8vQqbD/ShX5yx+3g==";
-	private static String BASE64_IV = "+KSjwLJcoMXl7W+U1y5VtQ==";
+
+    //"<Key>8/K97v8vQqbD/ShX5yx+3g==</Key>"
+    //"<IV>+KSjwLJcoMXl7W+U1y5VtQ==</IV>"        
+    private static String BASE64_KEY = "8/K97v8vQqbD/ShX5yx+3g==";
+    private static String BASE64_IV = "+KSjwLJcoMXl7W+U1y5VtQ==";
 
     private static String FIELDS_GENERAL_LEDGER_ACCOUNTS_ACCOUNT_DESCRIPTION = "AccountDescription";
     private static String FIELDS_GENERAL_LEDGER_ACCOUNTS_ACCOUNT = "Account";
@@ -180,7 +179,7 @@ public class SaftTestCipher {
 
         try {
             System.out.println("Reading Key");
-          
+
             //AES_CTR::
             byte[] keyBytes = Base64.getDecoder().decode(BASE64_KEY);
             SecretKey key = new SecretKeySpec(keyBytes, "AES");
@@ -623,9 +622,6 @@ public class SaftTestCipher {
         return decipherTextString;
     }
 }
-
 ```
 {% endcode %}
-
-
 
