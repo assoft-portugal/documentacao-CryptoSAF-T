@@ -19,9 +19,9 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
 * [SAF-T \(PT\)](informacao-tecnica/saf-t-pt/)
   * [Checksum](informacao-tecnica/saf-t-pt/checksum.md)
 * [CryptoSAF-T](informacao-tecnica/cryptosaf-t/)
+  * [Elementos](informacao-tecnica/cryptosaf-t/elementos.md)
   * [Mecanismo de cifra](informacao-tecnica/cryptosaf-t/mecanismo.md)
   * [Encriptação](informacao-tecnica/cryptosaf-t/encriptacao.md)
-  * [Elementos](informacao-tecnica/cryptosaf-t/elementos.md)
 * [INCM](informacao-tecnica/webservice/)
   * [Pedido de chave](informacao-tecnica/webservice/diagramas.md)
   * [Chave simétrica](informacao-tecnica/webservice/chave-simetrica.md)
@@ -29,7 +29,8 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
 
 ### Exemplos
 
-* [Exemplos](exemplos/exemplos.md)
+* [Ferramentas](exemplos/ferramentas/)
+  * [Exemplos](exemplos/ferramentas/exemplos.md)
 
 ### Outra informação
 

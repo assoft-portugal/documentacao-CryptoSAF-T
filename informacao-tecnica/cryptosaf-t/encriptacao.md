@@ -10,9 +10,13 @@ Para assegurar a verificação do [**checksum**](../saf-t-pt/checksum.md) após 
 * Windows / Linux / Unix: [libxml2](https://www.aleksey.com/xmlsec/c14n.html)
 * JAVA: [XOM](https://github.com/elharo/xom/), [Santuario Class Canonicalizer](http://santuario.apache.org/Java/api/org/apache/xml/security/c14n/Canonicalizer.html)
 
+{% hint style="info" %}
+Consulte o repositório [**CryptoSAF-T: SAF-T Utils**](https://github.com/assoft-portugal/CryptoSAF-T-SAF-T-Utils) onde pode verificar e estar os métodos de canonização e encriptação do XML.
+{% endhint %}
+
 ## Handling do XML
 
-Para garantir a integridade da informação contida no ficheiro, o **CryptoSAF-T tem de ser criado a partir do SAF-T \(PT\) original**. Está previsto a criação de um documento técnico com todas as regras que vão estar na base do processo de encriptação.
+Para garantir a integridade da informação contida no ficheiro, o **CryptoSAF-T tem de ser criado a partir do SAF-T \(PT\) original**.
 
 Processar um ficheiro XML de grande dimensão pode ser um problema quando este é carregado apenas para a memória:
 

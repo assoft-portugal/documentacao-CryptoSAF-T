@@ -1,8 +1,12 @@
 # Checksum
 
+## Algoritmo
+
+SHA-256
+
 ## Descrição
 
-Ainda não é claro qual o [algoritmo](https://en.wikipedia.org/wiki/Category:Checksum_algorithms) a usar para se obter o checksum do ficheiro SAF-T \(PT\). O checksum permite validar se um ficheiro CryptoSAF-T após ser desencriptado é igual ao original \(não encriptado\).
+O algoritmo de checksum `SHA256` permite calcular e verificar o hash de um determinado ficheiro ou de um bloco de informação.  Neste caso, o checksum vai permitir validar se um ficheiro CryptoSAF-T após ser desencriptado é igual ao original \(não encriptado\).
 
 ![Processo de cria&#xE7;&#xE3;o e verifica&#xE7;&#xE3;o do checksum do ficheiro SAF-T \(PT\).](../../.gitbook/assets/mermaid-diagram-20200911193254.png)
 
