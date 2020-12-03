@@ -1,6 +1,6 @@
 # Mecanismo de cifra
 
-A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra [aes-128-ctr](../../exemplos/ferramentas/exemplos.md) que retira partido do uso de uma **chave simétrica**. A par da encriptação existe também o desafio da obtenção do checksum do ficheiro SAF-T \(PT\) original.
+A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra [aes-128-ctr]() que retira partido do uso de uma **chave simétrica**. A par da encriptação existe também o desafio da obtenção do checksum do ficheiro SAF-T \(PT\) original.
 
 ## Parâmetros da cifra
 

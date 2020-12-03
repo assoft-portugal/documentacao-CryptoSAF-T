@@ -29,8 +29,8 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
 
 ### Exemplos
 
-* [Ferramentas](exemplos/ferramentas/)
-  * [Exemplos](exemplos/ferramentas/exemplos.md)
+* [Ferramentas](ferramentas/cryptosaf-t-utils.md)
+  * [Exemplos]()
 
 ### Outra informação
 

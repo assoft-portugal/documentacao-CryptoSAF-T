@@ -17,10 +17,9 @@
   * [Chave simétrica](informacao-tecnica/webservice/chave-simetrica.md)
   * [Webservice](informacao-tecnica/webservice/webservice.md)
 
-## Exemplos
+## Ferramentas
 
-* [Ferramentas](exemplos/ferramentas/README.md)
-  * [Exemplos](exemplos/ferramentas/exemplos.md)
+* [SAF-T: Utils](ferramentas/cryptosaf-t-utils.md)
 
 ## Outra informação
 

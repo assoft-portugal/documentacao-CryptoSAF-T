@@ -11,7 +11,7 @@ Para assegurar a verificação do [**checksum**](../saf-t-pt/checksum.md) após 
 * JAVA: [XOM](https://github.com/elharo/xom/), [Santuario Class Canonicalizer](http://santuario.apache.org/Java/api/org/apache/xml/security/c14n/Canonicalizer.html)
 
 {% hint style="info" %}
-Consulte o repositório [**CryptoSAF-T: SAF-T Utils**](https://github.com/assoft-portugal/CryptoSAF-T-SAF-T-Utils) onde pode verificar e estar os métodos de canonização e encriptação do XML.
+Consulte o repositório [**CryptoSAF-T: SAF-T Utils**](https://github.com/assoft-portugal/CryptoSAF-T-SAF-T-Utils) onde pode verificar e testar os métodos de canonização e encriptação do XML.
 {% endhint %}
 
 ## Handling do XML
