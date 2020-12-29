@@ -22,10 +22,10 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
   * [Elementos](informacao-tecnica/cryptosaf-t/elementos.md)
   * [Mecanismo de cifra](informacao-tecnica/cryptosaf-t/mecanismo.md)
   * [Encriptação](informacao-tecnica/cryptosaf-t/encriptacao.md)
-* [INCM](informacao-tecnica/webservice/)
-  * [Pedido de chave](informacao-tecnica/webservice/diagramas.md)
-  * [Chave simétrica](informacao-tecnica/webservice/chave-simetrica.md)
-  * [Webservice](informacao-tecnica/webservice/webservice.md)
+* [INCM](informacao-tecnica/incm/)
+  * [Pedido de chave](informacao-tecnica/incm/pedido-de-chave.md)
+  * [Chave simétrica](informacao-tecnica/incm/chave-simetrica.md)
+  * [Webservice](informacao-tecnica/incm/webservice.md)
 
 ### Exemplos
 
@@ -38,11 +38,11 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
 
 ## Ajuda
 
-Use a secção de [**issues**](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/issues) para consultar, colocar questões ou sugestões que gostaria de ver neste repositório.
+Use a secção de [**issues**](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/issues) para consultar, colocar questões ou sugerir alterações à documentação.
 
 ## Contributos
 
-Temos muito gosto em contar com a sua colaboração neste projeto. Faça Fork deste repositório e envie o seus [**pull requests**](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/pulls)!
+Temos muito gosto em contar com a sua colaboração neste projeto. Faça Fork deste [**repositório**](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/) e envie o seus [**pull requests**](https://github.com/assoft-portugal/documentacao-CryptoSAF-T/pulls)!
 
 ## Licença
 

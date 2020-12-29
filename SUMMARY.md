@@ -12,10 +12,10 @@
   * [Elementos](informacao-tecnica/cryptosaf-t/elementos.md)
   * [Mecanismo de cifra](informacao-tecnica/cryptosaf-t/mecanismo.md)
   * [Encriptação](informacao-tecnica/cryptosaf-t/encriptacao.md)
-* [INCM](informacao-tecnica/webservice/README.md)
-  * [Pedido de chave](informacao-tecnica/webservice/diagramas.md)
-  * [Chave simétrica](informacao-tecnica/webservice/chave-simetrica.md)
-  * [Webservice](informacao-tecnica/webservice/webservice.md)
+* [INCM](informacao-tecnica/incm/README.md)
+  * [Pedido de chave](informacao-tecnica/incm/pedido-de-chave.md)
+  * [Chave simétrica](informacao-tecnica/incm/chave-simetrica.md)
+  * [Webservice](informacao-tecnica/incm/webservice.md)
 
 ## Ferramentas
 
