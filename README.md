@@ -27,10 +27,9 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
   * [Chave simétrica](informacao-tecnica/incm/chave-simetrica.md)
   * [Webservice](informacao-tecnica/incm/webservice.md)
 
-### Exemplos
+### Ferramentas
 
-* [Ferramentas](ferramentas/cryptosaf-t-utils.md)
-  * [Exemplos]()
+* [SAF-T: Utils](ferramentas/cryptosaf-t-utils.md)
 
 ### Outra informação
 
