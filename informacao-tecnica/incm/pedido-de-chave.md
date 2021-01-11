@@ -2,6 +2,10 @@
 
 Em baixo apresentam-se um conjunto de diagramas que permitem perceber cada uma das fases do processo, desde o pedido inicial da chave até à submissão da IES/DA.
 
+{% hint style="danger" %}
+Para a realização dos testes iniciais é necessário solicitar à INCM a criação de caixas de teste no serviço viaCTT. As entidades que pretendam participar podem fazê-lo através da [linha de apoio](./).
+{% endhint %}
+
 ## Fase 1 - Pedido de geração de chave
 
 ![Fase 1 - Pedido de gera&#xE7;&#xE3;o de chave](../../.gitbook/assets/fase-1-pedido-de-geracao-de-chave.svg)
@@ -10,7 +14,7 @@ Em baixo apresentam-se um conjunto de diagramas que permitem perceber cada uma d
 
 O início do processo tem origem na invocação de um `webservice` da INCM. Nesta fase é feito um pedido geração de chave simétrica e para o qual são requeridos os parâmetros `NIF` e `Ano` a que respeita a declaração da IES/DA.
 
-Este pedido carece de autenticação pelo Contribuinte. O Contribuinte será em seguida notificado através do serviço viaCTT por forma autenticar o pedido.
+A chave tem que ser autenticada pelo contribuinte, pelo que na segunda fase do pedido este tem que inserir o código que recebeu viaCTT. Apesar de não ser necessário nenhum pré-registo para se conseguir obter o código de segurança que permite o levantamento da chave criptográfica, é necessário que o sujeito passivo tenha a sua conta criada e ativa na Caixa Postal ViaCTT.
 
 ## Fase 2 - Pedido de chave
 

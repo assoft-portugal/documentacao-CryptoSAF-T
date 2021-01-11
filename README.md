@@ -21,7 +21,7 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
 * [CryptoSAF-T](informacao-tecnica/cryptosaf-t/)
   * [Elementos](informacao-tecnica/cryptosaf-t/elementos.md)
   * [Mecanismo de cifra](informacao-tecnica/cryptosaf-t/mecanismo.md)
-  * [Encriptação](informacao-tecnica/cryptosaf-t/encriptacao.md)
+  * [Encriptação]()
 * [INCM](informacao-tecnica/incm/)
   * [Pedido de chave](informacao-tecnica/incm/pedido-de-chave.md)
   * [Chave simétrica](informacao-tecnica/incm/chave-simetrica.md)

@@ -8,6 +8,8 @@ Nesta página encontra os métodos que o webservice disponibiliza para todos os 
 
 {% file src="../../.gitbook/assets/public \(1\).wsdl" caption="public.wdsl \(testes\)" %}
 
+{% file src="../../.gitbook/assets/incm-cryptosaf-t\_manual\_de\_integracao-1-.pdf" caption="Manual de Integração CryptoSAFT" %}
+
 ## Pedido de Chave \(KeyRequest\) 
 
 Serviço de pedido de chave que associa uma chave a um par `Ano fiscal/NIF` e despoleta o envio de uma notificação ViaCTT para o contribuinte com o respetivo código de levantamento. 
@@ -52,4 +54,19 @@ Serviço de pedido de levantamento de chave que devolve a chave associada a um p
 | 3  | Código de levantamento inválido  |
 | 4  | Ano fiscal/NIF bloqueado  |
 | 5  | Aviso - Canal ViaCTT não ativo |
+
+## Ambientes
+
+Existem dois ambientes de funcionamento do serviço disponíveis: produção e testes.
+
+O ambiente de teste destina-se a fornecer um meio para o desenvolvimento da integração de aplicações de descaracterização. É de acesso exclusivo a fabricantes de aplicações que desenvolvam este tipo de aplicações. Durante o processo de integração é necessário o acesso a uma conta no ambiente de testes do ViaCTT, sendo recomendável [**contactar a linha de apoio**](mailto:cryptosaft@incm.pt) previamente ao início do processo de integração.
+
+### Endereços dos ambientes
+
+| Ambiente | Tipo | Endereço |
+| :--- | :--- | :--- |
+| Produção | Serviço | [https://keys.cryptosaft.incm.pt/service/public](https://keys.cryptosaft.incm.pt/service/public) |
+|  | WDSL | [https://keys.cryptosaft.incm.pt/service/public?wsdl](https://keys.cryptosaft.incm.pt/service/public?wsdl)  |
+| Testes | Serviço |  [https://keys-tst.cryptosaft.incm.pt/service/public](https://keys-tst.cryptosaft.incm.pt/service/public) |
+|  | WDSL | [https://keys-tst.cryptosaft.incm.pt/service/public?wsdl](https://keys-tst.cryptosaft.incm.pt/service/public?wsdl) |
 
