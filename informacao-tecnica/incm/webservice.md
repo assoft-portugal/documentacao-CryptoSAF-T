@@ -67,6 +67,6 @@ O ambiente de teste destina-se a fornecer um meio para o desenvolvimento da inte
 | :--- | :--- | :--- |
 | Produção | Serviço | [https://keys.cryptosaft.incm.pt/service/public](https://keys.cryptosaft.incm.pt/service/public) |
 |  | WDSL | [https://keys.cryptosaft.incm.pt/service/public?wsdl](https://keys.cryptosaft.incm.pt/service/public?wsdl)  |
-| Testes | Serviço |  [https://keys-tst.cryptosaft.incm.pt/service/public](https://keys-tst.cryptosaft.incm.pt/service/public) |
+| Testes | Serviço | [https://keys-tst.cryptosaft.incm.pt/service/public](https://keys-tst.cryptosaft.incm.pt/service/public) |
 |  | WDSL | [https://keys-tst.cryptosaft.incm.pt/service/public?wsdl](https://keys-tst.cryptosaft.incm.pt/service/public?wsdl) |
 

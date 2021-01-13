@@ -2,7 +2,11 @@
 
 ## Estrutura do SAF-T \(PT\) de contabilidade
 
-A estrutura encontra-se regulada pela Portaria 302/2016 de 2 de dezembro \( [**PT**](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Portaria_302_2016.pdf) \| [**EN**](https://info.portaldasfinancas.gov.pt/pt/docs/Portug_tax_system/Documents/Ordinance_No_302_2016_of_the_2nd_December.pdf) \) e o respetivo schema XSD pode ser descarregado [**aqui**](https://info.portaldasfinancas.gov.pt/apps/saft-pt04/saftpt1.04_01.xsd). Para mais informação pode aceder à área destinada ao SAF-T \(PT\) no [Portal das Finanças](https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/SAFT_PT/Paginas/news-saf-t-pt.aspx).
+A estrutura encontra-se regulada pela Portaria 302/2016 de 2 de dezembro \( [**PT**](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Portaria_302_2016.pdf) \| [**EN**](https://info.portaldasfinancas.gov.pt/pt/docs/Portug_tax_system/Documents/Ordinance_No_302_2016_of_the_2nd_December.pdf) \) e o respetivo schema XSD pode ser descarregado [**aqui**](https://info.portaldasfinancas.gov.pt/apps/saft-pt04/saftpt1.04_01.xsd). 
+
+{% hint style="info" %}
+Para mais informação pode aceder à área destinada ao SAF-T \(PT\) no [Portal das Finanças](https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/SAFT_PT/Paginas/news-saf-t-pt.aspx).
+{% endhint %}
 
 | Índice | Elemento |
 | :--- | :--- |
