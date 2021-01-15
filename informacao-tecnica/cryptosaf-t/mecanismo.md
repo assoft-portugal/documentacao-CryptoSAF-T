@@ -13,11 +13,15 @@ A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de ci
 
 ![](../../.gitbook/assets/mermaid-diagram-20210111161428.png)
 
-### Descrição
+### Descrição do processo
 
 O ERP de Contabilidade tem de criar **dois ficheiros**, o `SAF-T (PT)` para efeitos de entrega da IES/DA e o `CryptoSAF-T`. 
 
-A chave simétrica é usada para encriptar os [**elementos**](elementos.md) \(clique para ver a lista de elementos abrangidos\), no que resultará o `CryptoSAF-T`. O regulamento indica que deve ser usado o algoritmo `aes-128-ctr` para encriptar cada um dos elementos em causa.
+A chave simétrica é usada para encriptar a lista de [**elementos**](elementos.md), o que resultará no `CryptoSAF-T`. O regulamento indica que deve ser usado o algoritmo `aes-128-ctr` para encriptar cada um dos elementos em causa.
 
-Com o [**checksum**](../saf-t-pt/checksum.md) do ficheiro `SAF-T (PT)` original e do `CryptoSAF-T` a aplicação está em condições de submeter a IES/DA. O envio da IES/DA é feito através do contabilista do Contribuinte no Portal das Finanças, onde tem de carregar o `CryptoSAF-T` e o `checksum` do `SAF-T (PT)`.
+Para garantir a autenticidade do ficheiro SAF-T \(PT\) original é necessário calcular o seu [**checksum**](../saf-t-pt/checksum.md). 
+
+{% page-ref page="../../ferramentas/cryptosaf-t-utils.md" %}
+
+Uma vez concluídos todos estes procedimentos o utilizador estará em condições condições de submeter a IES/DA a partir dos serviços disponibilizados pela Autoridade Tributária. O envio da IES/DA é feito através do contabilista, devendo submeter o `CryptoSAF-T` e o `checksum` do `SAF-T (PT)` original.
 
