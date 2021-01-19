@@ -19,5 +19,5 @@ No modo CTR os blocos cifrados não dependem do anterior mas sim de um contador 
 
 > ### Este processo pode ser repetido, permitindo recuperar a chave caso seja necessário.
 
-Consulte a página de [**Pedido de chave**](pedido-de-chave.md) ****para saber mais acerca deste processo.
+Consulte a página de [**Pedido de chave**](pedido-de-chave.md) para saber mais acerca deste processo.
 
