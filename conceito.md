@@ -10,5 +10,3 @@ O CryptoSAF-T, designação dada pela comunidade, consiste no ficheiro SAF-T \(P
 * [Imprensa Nacional Casa da Moeda \(INCM\)](https://www.incm.pt/) intervém no processo através da disponibilização do serviço de geração e armazenamento seguro das chaves.
 * Existe apenas uma chave simétrica por contribuinte e por ano, respeitante a cada exercício para qual é submetida a IES.
 
-
-
