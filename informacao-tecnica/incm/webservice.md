@@ -8,7 +8,7 @@ Nesta página encontra os métodos que o webservice disponibiliza para todos os 
 
 {% file src="../../.gitbook/assets/public \(1\).wsdl" caption="public.wdsl \(testes\)" %}
 
-{% file src="../../.gitbook/assets/incm-cryptosaf-t\_manual\_de\_integracao-1-" caption="Manual de Integração CryptoSAFT" %}
+{% file src="../../.gitbook/assets/incm-cryptosaf-t\_manual\_de\_integracao-1-.pdf" caption="Manual de Integração CryptoSAFT" %}
 
 ## Pedido de Chave \(KeyRequest\) 
 
