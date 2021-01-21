@@ -3,7 +3,7 @@
 Mantenha-se a par das últimas novidades sobre este e outros temas.
 
 * [**URL da ASSOFT**](https://www.assoft.org/)
-* \*\*\*\*[**URL da INCM**](https://cryptosaft.incm.pt/)\*\*\*\*
+* [**URL da INCM**](https://cryptosaft.incm.pt/)
 * [**Medium**](https://medium.com/assoft)
 * [**Slack**](https://www.assoft.org/pt/65/plataforma-colaborativa/) \(Plataforma Colaborativa\)
 * [**Twitter**](https://www.twitter.com/assoft)
