@@ -25,6 +25,7 @@ As aplicações de software de gestão são obrigadas a cumprir com as disposiç
   * [Pedido de chave](informacao-tecnica/incm/pedido-de-chave.md)
   * [Chave simétrica](informacao-tecnica/incm/chave-simetrica.md)
   * [Webservice](informacao-tecnica/incm/webservice.md)
+  * [Testar Webservice](informacao-tecnica/incm/testar-webservice.md)
 
 ### Ferramentas
 
