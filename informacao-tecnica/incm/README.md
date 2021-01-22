@@ -5,9 +5,6 @@ A INCM é responsável pela disponibilização e manutenção do serviço de ger
 Nesta secção encontra informação sobre o método de obtenção da chave e o IV usados para encriptar o SAF-T \(PT\).
 
 {% hint style="info" %}
-Encontra mais informação sobre o serviço de CryptoSAFT da INCM em:
-
-* [https://cryptosaft.incm.pt/](https://cryptosaft.incm.pt/)
-* Linha de apoio: [cryptosaft@incm.pt](mailto:cryptosaft@incm.pt)
+Encontra mais informação sobre o serviço de CryptoSAFT da INCM em [https://www-tst.cryptosaft.incm.pt/](https://www-tst.cryptosaft.incm.pt/) e através da linha de apoio pelo email [cryptosaft@incm.pt](mailto:cryptosaft@incm.pt).
 {% endhint %}
 
