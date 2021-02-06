@@ -1,116 +1,178 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://cryptosaft.incm.pt/public/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="public" targetNamespace="http://cryptosaft.incm.pt/public/">
-    <wsdl:types>
-        <xsd:schema targetNamespace="http://cryptosaft.incm.pt/public/">
-            <xsd:element name="KeyRequest">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="FiscalYear" maxOccurs="1" minOccurs="1" type="tns:FiscalYearType">
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://cryptosaft.incm.pt/public/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="public" targetNamespace="http://cryptosaft.incm.pt/public/">
+  <wsdl:types>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://cryptosaft.incm.pt/public/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://cryptosaft.incm.pt/public/">
+            
+  <xsd:element name="KeyRequest">
+                
+    <xsd:complexType>
+                    
+      <xsd:sequence>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="FiscalYear" type="tns:FiscalYearType">
                         </xsd:element>
-                        <xsd:element name="VatNumber" maxOccurs="1" minOccurs="1" type="tns:VatNumberType">
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="VatNumber" type="tns:VatNumberType">
                         </xsd:element>
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="KeyRequestResponse">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="Response" type="tns:PublicResponseStatusType" maxOccurs="1" minOccurs="1"/>
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="KeyRetrieve">
-                <xsd:complexType>
-                    <xsd:sequence>
+                    
+      </xsd:sequence>
+                
+    </xsd:complexType>
+            
+  </xsd:element>
+            
+  <xsd:element name="KeyRequestResponse">
+                
+    <xsd:complexType>
+                    
+      <xsd:sequence>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="Response" type="tns:PublicResponseStatusType"/>
+                    
+      </xsd:sequence>
+                
+    </xsd:complexType>
+            
+  </xsd:element>
+            
+  <xsd:element name="KeyRetrieve">
+                
+    <xsd:complexType>
+                    
+      <xsd:sequence>
 
-                        <xsd:element name="FiscalYear" type="tns:FiscalYearType" maxOccurs="1" minOccurs="1"></xsd:element>
-                        <xsd:element name="VatNumber" type="tns:VatNumberType" maxOccurs="1" minOccurs="1"></xsd:element>
-                        <xsd:element name="RetrieveCode" type="tns:RetrieveCodeType" maxOccurs="1" minOccurs="1"></xsd:element>
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-            <xsd:element name="KeyRetrieveResponse">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="Response" type="tns:PublicResponseStatusType"></xsd:element>
-                        <xsd:element name="Key" type="xsd:string"></xsd:element>
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-            <xsd:complexType name="PublicResponseStatusType">
-                <xsd:sequence>
-                    <xsd:element name="ResponseCode" type="xsd:int" maxOccurs="1" minOccurs="1"></xsd:element>
-                    <xsd:element name="Error" type="xsd:string" maxOccurs="1" minOccurs="0"></xsd:element>
-                </xsd:sequence>
-            </xsd:complexType>
-            <xsd:simpleType name="VatNumberType">
-                <xsd:restriction base="xsd:integer">
-                    <xsd:minInclusive value="100000000"></xsd:minInclusive>
-                    <xsd:maxInclusive value="999999999"></xsd:maxInclusive>
-                </xsd:restriction>
-            </xsd:simpleType>
-            <xsd:simpleType name="FiscalYearType">
-                <xsd:restriction base="xsd:integer">
-                    <xsd:minInclusive value="2000"></xsd:minInclusive>
-                    <xsd:maxInclusive value="9999"></xsd:maxInclusive>
-                </xsd:restriction>
-            </xsd:simpleType>
-            <xsd:simpleType name="RetrieveCodeType">
-                <xsd:restriction base="xsd:string">
-                    <xsd:length value="10"></xsd:length>
-                </xsd:restriction>
-            </xsd:simpleType>
-        </xsd:schema>
-    </wsdl:types>
-    <wsdl:message name="KeyRequestOperationRequest">
-        <wsdl:part element="tns:KeyRequest" name="keyRequest"/>
-    </wsdl:message>
-    <wsdl:message name="KeyRequestOperationResponse">
-        <wsdl:part element="tns:KeyRequestResponse" name="keyRequestResponse"/>
-    </wsdl:message>
-    <wsdl:message name="KeyRetrieveOperationRequest">
-        <wsdl:part name="keyRetrieve" element="tns:KeyRetrieve"></wsdl:part>
-    </wsdl:message>
-    <wsdl:message name="KeyRetrieveOperationResponse">
-        <wsdl:part name="keyRetrieveResponse" element="tns:KeyRetrieveResponse"></wsdl:part>
-    </wsdl:message>
-    <wsdl:portType name="public">
-        <wsdl:operation name="KeyRequestOperation">
-            <wsdl:input message="tns:KeyRequestOperationRequest"/>
-            <wsdl:output message="tns:KeyRequestOperationResponse"/>
-        </wsdl:operation>
-        <wsdl:operation name="KeyRetrieveOperation">
-            <wsdl:input message="tns:KeyRetrieveOperationRequest"></wsdl:input>
-            <wsdl:output message="tns:KeyRetrieveOperationResponse"></wsdl:output>
-        </wsdl:operation>
-    </wsdl:portType>
-    <wsdl:binding name="publicSOAP" type="tns:public">
-        <soap:binding style="document"
-                      transport="http://schemas.xmlsoap.org/soap/http" />
-        <wsdl:operation name="KeyRequestOperation">
-            <soap:operation
-                    soapAction="http://cryptosaft.incm.pt/public/KeyRequestOperation" />
-            <wsdl:input>
-                <soap:body use="literal" />
-            </wsdl:input>
-            <wsdl:output>
-                <soap:body use="literal" />
-            </wsdl:output>
-        </wsdl:operation>
-        <wsdl:operation name="KeyRetrieveOperation">
-            <soap:operation
-                    soapAction="http://cryptosaft.incm.pt/public/KeyRetrieveOperation" />
-            <wsdl:input>
-                <soap:body use="literal" />
-            </wsdl:input>
-            <wsdl:output>
-                <soap:body use="literal" />
-            </wsdl:output>
-        </wsdl:operation>
-    </wsdl:binding>
-    <wsdl:service name="public">
-        <wsdl:port binding="tns:publicSOAP" name="publicSOAP">
-            <soap:address location="http://localhost:8080/public"/>
-        </wsdl:port>
-    </wsdl:service>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="FiscalYear" type="tns:FiscalYearType"/>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="VatNumber" type="tns:VatNumberType"/>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="RetrieveCode" type="tns:RetrieveCodeType"/>
+                    
+      </xsd:sequence>
+                
+    </xsd:complexType>
+            
+  </xsd:element>
+            
+  <xsd:element name="KeyRetrieveResponse">
+                
+    <xsd:complexType>
+                    
+      <xsd:sequence>
+                        
+        <xsd:element maxOccurs="1" minOccurs="1" name="Response" type="tns:PublicResponseStatusType"/>
+                        
+        <xsd:element maxOccurs="1" minOccurs="0" name="Key" type="xsd:string"/>
+                        
+        <xsd:element maxOccurs="1" minOccurs="0" name="IV" type="xsd:string"/>
+                    
+      </xsd:sequence>
+                
+    </xsd:complexType>
+            
+  </xsd:element>
+            
+  <xsd:complexType name="PublicResponseStatusType">
+                
+    <xsd:sequence>
+                    
+      <xsd:element maxOccurs="1" minOccurs="1" name="ResponseCode" type="xsd:int"/>
+                    
+      <xsd:element maxOccurs="1" minOccurs="0" name="Error" type="xsd:string"/>
+                
+    </xsd:sequence>
+            
+  </xsd:complexType>
+            
+  <xsd:simpleType name="VatNumberType">
+                
+    <xsd:restriction base="xsd:integer">
+                    
+      <xsd:minInclusive value="100000000"/>
+                    
+      <xsd:maxInclusive value="999999999"/>
+                
+    </xsd:restriction>
+            
+  </xsd:simpleType>
+            
+  <xsd:simpleType name="FiscalYearType">
+                
+    <xsd:restriction base="xsd:integer">
+                    
+      <xsd:minInclusive value="2020"/>
+                    
+      <xsd:maxInclusive value="9999"/>
+                
+    </xsd:restriction>
+            
+  </xsd:simpleType>
+            
+  <xsd:simpleType name="RetrieveCodeType">
+                
+    <xsd:restriction base="xsd:string">
+                    
+      <xsd:length value="10"/>
+                
+    </xsd:restriction>
+            
+  </xsd:simpleType>
+        
+</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="KeyRequestOperationRequest">
+    <wsdl:part element="tns:KeyRequest" name="keyRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="KeyRequestOperationResponse">
+    <wsdl:part element="tns:KeyRequestResponse" name="keyRequestResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="KeyRetrieveOperationResponse">
+    <wsdl:part element="tns:KeyRetrieveResponse" name="keyRetrieveResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="KeyRetrieveOperationRequest">
+    <wsdl:part element="tns:KeyRetrieve" name="keyRetrieve">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="public">
+    <wsdl:operation name="KeyRequestOperation">
+      <wsdl:input message="tns:KeyRequestOperationRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:KeyRequestOperationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KeyRetrieveOperation">
+      <wsdl:input message="tns:KeyRetrieveOperationRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:KeyRetrieveOperationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="publicSOAP" type="tns:public">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="KeyRequestOperation">
+      <soap:operation soapAction="http://cryptosaft.incm.pt/public/KeyRequestOperation"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KeyRetrieveOperation">
+      <soap:operation soapAction="http://cryptosaft.incm.pt/public/KeyRetrieveOperation"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="public">
+    <wsdl:port binding="tns:publicSOAP" name="publicSOAP">
+      <soap:address location="https://keys-tst.cryptosaft.incm.pt/service/public"/>
+    </wsdl:port>
+  </wsdl:service>
 </wsdl:definitions>

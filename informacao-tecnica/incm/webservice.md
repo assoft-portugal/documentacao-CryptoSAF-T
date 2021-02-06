@@ -6,9 +6,9 @@ O pedido da chave e do respetivo IV pode ser feito através de webservice cujas 
 
 Nesta página encontra os métodos que o webservice disponibiliza para todos os utilizadores. Este webservice estará \(quando for lançado\) exposto ao publico sem qualquer autenticação e permitirá invocar as operações de pedido e levantamento de chave.
 
-{% file src="../../.gitbook/assets/public \(1\).wsdl" caption="public.wdsl \(testes\)" %}
+{% file src="../../.gitbook/assets/public.wsdl" caption="public.wdsl \(testes\)" %}
 
-{% file src="../../.gitbook/assets/incm-cryptosaf-t\_manual\_de\_integracao-1-.pdf" caption="Manual de Integração CryptoSAFT" %}
+{% file src="../../.gitbook/assets/incm-cryptosaf-t\_manual\_de\_integracao.pdf" caption="Manual de Integração CryptoSAFT" %}
 
 ## Pedido de Chave \(KeyRequest\)
 
