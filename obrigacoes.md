@@ -8,15 +8,15 @@ Para o efeito da submissão da IES/DA os contribuintes passam a ter que usar **o
 * É necessário obter uma **soma de verificação \(**[**checksum**](informacao-tecnica/saf-t-pt/checksum.md)**\)** do ficheiro SAF-T \(PT\) original antes da encriptação dos elementos.
 * O checksum é enviado em conjunto com o CryptoSAF-T no momento da submissão da IES/DA.
 * A encriptação dos [**elementos**](informacao-tecnica/cryptosaf-t/elementos.md) do SAF-T \(PT\) ocorre com sucesso se assegurada a reversão do processo usando a mesma chave [simétrica](conceito.md#o-que-vai-acontecer), através da qual se obtém o ficheiro original, **estruturalmente sem erros**.
-* O checksum é usado para validar que o ficheiro submetido para a entrega da IES/DA está em conformidade com original.
+* O checksum é usado para validar que o ficheiro baseado no CryptoSAF-T que é submetido para o efeito da entrega da IES/DA é igual ao original.
 
-### Segurança da chave simétrica
+## Segurança da chave simétrica
 
 O [Decreto-Lei Decreto-Lei n.º 48/2020 de 3 de agosto](https://data.dre.pt/eli/dec-lei/48/2020/08/03/p/dre) estabelece na alínea b\) do Artigo 3.º que a chave simétrica tem de ser mantida em sigilo **e não pode ser usada para a encriptação de outro ficheiro relativo o outro exercício ou outro contribuinte \(NIF\), como uma obrigação do fabricante de software**.
 
 A interpretação à letra da legislação pode dar a entender que será necessário um mecanismo de custódia da chave simétrica pelo software. Não é isso que se pede. A responsabilidade da segurança da chave é em primeira instância do contribuinte para quem foi emitida. Porém, nada impede que o software possa dispor de mecanismos de custódia e de gestão das chaves dos contribuintes.
 
-#### Sobre este aspeto é portanto necessário
+### Sobre este aspeto é portanto necessário
 
 * Usar a chave de forma segura nas comunicações com os serviços em que esta é requerida.
 * Garantir que é usada a chave correta para a encriptação do ficheiro do contribuinte.

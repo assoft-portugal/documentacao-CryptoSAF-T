@@ -7,6 +7,3 @@ Nesta secção encontra informação sobre o método de obtenção da chave e o 
 {% hint style="info" %}
 Encontra mais informação sobre o serviço de CryptoSAFT da INCM em [https://www-tst.cryptosaft.incm.pt/](https://www-tst.cryptosaft.incm.pt/) e através da linha de apoio pelo email [cryptosaft@incm.pt](mailto:cryptosaft@incm.pt).
 {% endhint %}
-
-
-
