@@ -1,6 +1,6 @@
 # Mecanismo de cifra
 
-A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra aes-128-ctr que retira partido do uso de uma **chave simétrica**. A par da encriptação existe também o desafio da obtenção do checksum do ficheiro SAF-T \(PT\) original.
+A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de cifra aes-128-ctr que retira partido do uso de uma **chave simétrica**.
 
 ## Parâmetros da cifra
 
@@ -11,17 +11,18 @@ A encriptação dos [**elementos**](elementos.md) tem por base o algoritmo de ci
 
 ## CryptoSAF-T e IES/DA
 
-![](../../.gitbook/assets/mermaid-diagram-20210111161428.png)
+![Criação e envio de CryptoSAF-T](../../.gitbook/assets/mermaid-diagram-20210211205749.svg)
 
 ### Descrição do processo
 
-O ERP de Contabilidade tem de criar **dois ficheiros**, o `SAF-T (PT)` para efeitos de entrega da IES/DA e o `CryptoSAF-T`. 
+O ERP de Contabilidade tem de criar **dois ficheiros**: (1) o `SAF-T (PT)` de Contabilidade para efeitos de entrega da IES/DA e (2) o `CryptoSAF-T` a partir do ficheiro anterior.
 
-A chave simétrica é usada para encriptar a lista de [**elementos**](elementos.md), o que resultará no `CryptoSAF-T`. O regulamento indica que deve ser usado o algoritmo `aes-128-ctr` para encriptar cada um dos elementos em causa.
+O CryptoSAF-T tem por base a encriptação da lista de [**elementos**](elementos.md) referidos na legislação através do algoritmo de chave simétrica `aes-128-ctr`.
 
-Para garantir a autenticidade do ficheiro SAF-T \(PT\) original é necessário calcular o seu [**checksum**](../saf-t-pt/checksum.md). 
+{% hint style="danger" %}
+Para garantir a autenticidade do ficheiro original é necessário calcular o seu [**checksum**](../saf-t-pt/checksum.md). No entanto, o CryptoSAF-T **deve ser criado a partir do ficheiro original** e não a partir do ficheiro canonizado.
+{% endhint %}
 
 {% page-ref page="../../ferramentas/cryptosaf-t-utils.md" %}
 
-Uma vez concluídos todos estes procedimentos o utilizador estará em condições condições de submeter a IES/DA a partir dos serviços disponibilizados pela Autoridade Tributária. O envio da IES/DA é feito através do contabilista, devendo submeter o `CryptoSAF-T` e o `checksum` do `SAF-T (PT)` original.
-
+Uma vez concluídos todos estes procedimentos o utilizador estará em condições de submeter o ficheiro para efeitos do pré-preenchimento da IES/DA. O envio destes elementos é da competência exclusiva do contabilista da empresa.

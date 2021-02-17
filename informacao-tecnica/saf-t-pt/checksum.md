@@ -6,27 +6,31 @@ SHA-256
 
 ## Descrição
 
-O algoritmo de checksum `SHA256` permite calcular e verificar o hash de um determinado ficheiro ou de um bloco de informação.  Neste caso, o checksum vai permitir validar se um ficheiro CryptoSAF-T após ser desencriptado é igual ao original \(não encriptado\).
+O algoritmo de checksum `SHA256` permite calcular o hash de um determinado ficheiro ou de um bloco de informação. Neste caso, o checksum é usado para validar que um ficheiro SAF-T \(PT\), após desencriptação, é igual ao ficheiro original.
 
-![Processo de cria&#xE7;&#xE3;o e verifica&#xE7;&#xE3;o do checksum do ficheiro SAF-T \(PT\).](../../.gitbook/assets/mermaid-diagram-20210111154727.png)
+![Processo de criação de checksum do SAF-T \(PT\)](../../.gitbook/assets/mermaid-diagram-20210211183510.svg)
 
-## Remover do XML informação desnecessária
+## Canonização
 
-Para obter uma soma de verificação \([**checksum**](checksum.md)\) certa, após a desencriptação do CryptoSAF-T, no ficheiro SAF-T \(PT\) original é, em primeiro lugar, necessário retirar toda a informação desnecessária que possa estar a mais. Este procedimento é feito através do método Canonical XML \[[XML-C14N](https://www.w3.org/TR/xml-exc-c14n/#ref-XML-C14N)\].
+O cálculo do [**checksum**](checksum.md) do ficheiro deve ser antecedido da sua canonização \(Canonical XML \[[XML-C14N](https://www.w3.org/TR/xml-exc-c14n/#ref-XML-C14N)\]\). Este é um processo que tem por objetivo remover a informação desnecessária e que possa estar a mais no `XML` e que vai garantir que o hash diz respeito exclusivamente ao conteúdo do ficheiro.
+
+{% hint style="danger" %}
+Este passo é particularmente importante na medida [**em que vai ser usado pela AT**](../incm/pedido-de-chave.md#fase-3---acesso-pela-at-ao-ficheiro-original) nos casos em que se proceda à desencriptação de ficheiros CryptoSAF-T que estejam em sua posse.
+{% endhint %}
 
 ## Algoritmo de canonização
 
 * Canonização seguido de resumo \(checksum\)
 
-### Canonização
+### Método
 
-* Canonical XML Version 1.1
+* [Canonical XML Version 1.1](https://www.w3.org/TR/xml-c14n11/)
 
 ### Parâmetros
 
 * sem comentários e não-exclusivo
 
-### Algumas ferramentas
+## Algumas ferramentas
 
 * .NET [XmlDsigExcC14NTransform Class](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.xml.xmldsigexcc14ntransform?view=dotnet-plat-ext-3.1)
 * Windows / Linux / Unix: [libxml2](https://www.aleksey.com/xmlsec/c14n.html)
@@ -35,4 +39,3 @@ Para obter uma soma de verificação \([**checksum**](checksum.md)\) certa, apó
 {% hint style="info" %}
 Consulte o repositório [**CryptoSAF-T: SAF-T Utils**](https://github.com/assoft-portugal/CryptoSAF-T-SAF-T-Utils) onde pode verificar e testar os métodos de canonização e encriptação do XML.
 {% endhint %}
-

@@ -4,9 +4,8 @@ O CryptoSAF-T, designação dada pela comunidade, consiste no ficheiro SAF-T \(P
 
 ## Em que consiste
 
-* Os programas de contabilidade têm de criar um ficheiro SAF-T \(PT\) de contabilidade com parte dos [elementos encriptados \(CryptoSAF-T\)](informacao-tecnica/cryptosaf-t/elementos.md).
-* O CryptoSAF-T **só tem efeitos para a entrega da IES/DA**.
-* O processo de encriptação tem por base o algoritmo de cifra [AES-128-CTR](informacao-tecnica/incm/chave-simetrica.md#aes-128-ctr) que retira partido do uso de uma **chave simétrica**.
-* [Imprensa Nacional Casa da Moeda \(INCM\)](https://www.incm.pt/) intervém no processo através da disponibilização do serviço de geração e armazenamento seguro das chaves.
+* Um conjunto [elementos](informacao-tecnica/cryptosaf-t/elementos.md) que compõem o ficheiro SAF-T \(PT\) de contabilidade passam a ser encriptados.
+* O CryptoSAF-T só tem efeitos práticos para entrega da IES/DA.
+* O processo de encriptação tem por base o algoritmo de cifra [AES-128-CTR](informacao-tecnica/incm/chave-simetrica.md#aes-128-ctr) que retira partido do uso de uma [**chave simétrica**](informacao-tecnica/incm/chave-simetrica.md).
+* [Imprensa Nacional Casa da Moeda \(INCM\)](https://www.incm.pt/) intervém no processo através do serviço de geração e armazenamento seguro das chaves.
 * Existe apenas uma chave simétrica por contribuinte e por ano, respeitante a cada exercício para qual é submetida a IES.
-
