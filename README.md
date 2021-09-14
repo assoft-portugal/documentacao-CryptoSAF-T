@@ -6,7 +6,7 @@ O [**Decreto Lei n.º 48/2020 de 3 de agosto**](https://data.dre.pt/eli/dec-lei/
 
 > Na sequência desta alteração, a [Lei n.º 119/2019](https://dre.pt/web/guest/pesquisa/-/search/124793094/details/normal?l=1), de 18 de setembro, veio alterar o n.º 6 do artigo 2.º do [Decreto-Lei n.º 8/2007](https://dre.pt/web/guest/pesquisa/-/search/522813/details/normal?l=1), de 17 de janeiro, que passou a prever que devem ser excluídos, previamente à submissão, os campos de dados do ficheiro SAF-T \(PT\), relativo à contabilidade, que sejam considerados de menor relevância ou de desproporcionalidade face ao âmbito e objeto do referido decreto-lei, designadamente dados que possam pôr em causa deveres de sigilo a que, legal ou contratualmente, os sujeitos passivos se encontrem obrigados.
 
-As aplicações de software de gestão são obrigadas a cumprir com as disposições deste diploma, designadamente, a criar **um ficheiro SAF-T \(PT\) descaracterizado**, através da encriptação do subconjunto conjunto de [**elementos**](informacao-tecnica/cryptosaf-t/elementos.md) que constam do referido diploma.
+As aplicações de software de gestão são obrigadas a cumprir com as disposições deste diploma, designadamente, a criar **um ficheiro SAF-T \(PT\) descaracterizado**, através da encriptação do subconjunto de [**elementos**](informacao-tecnica/cryptosaf-t/elementos.md) que constam do referido diploma.
 
 ## Índice de conteúdos deste repositório
 

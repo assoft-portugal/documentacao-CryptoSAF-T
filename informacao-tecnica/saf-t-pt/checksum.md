@@ -6,7 +6,7 @@ SHA-256
 
 ## Descrição
 
-O algoritmo de checksum `SHA256` permite calcular o hash de um determinado ficheiro ou de um bloco de informação. Neste caso, o checksum é usado para validar que um ficheiro SAF-T \(PT\), após desencriptação, é igual ao ficheiro original.
+O algoritmo de checksum `SHA256` permite calcular o hash de um determinado ficheiro ou de um bloco de informação. Neste caso, o checksum é usado para validar que um ficheiro SAF-T \(PT\) é igual ao ficheiro original, após ter sido desencriptado.
 
 ![Processo de criação de checksum do SAF-T \(PT\)](../../.gitbook/assets/mermaid-diagram-20210211183510.svg)
 

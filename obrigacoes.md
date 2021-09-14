@@ -1,6 +1,6 @@
 # Obrigações
 
-Para o efeito da submissão da IES/DA os contribuintes passam a ter que usar **obrigatoriamente** o CryptoSAF-T. Essa obrigação reverte-se igualmente nas aplicações de gestão de contabilidade, que passam a ter que o suportar.
+Para o efeito da submissão da IES/DA os contribuintes passam a ter que usar o CryptoSAF-T. Essa obrigação reverte-se igualmente nas aplicações de gestão de contabilidade, que passam a ter que o suportar.
 
 ## Aspetos chave do CryptoSAF-T
 
